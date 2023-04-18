@@ -1,0 +1,309 @@
+@import '/src/styles/reset.css';
+@import '/src/styles//common.css';
+
+.feedWrap {
+  padding-top: 70px;
+}
+
+.navContainer {
+  border-bottom: 1px solid #e5e5e5;
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.navBox {
+  width: 800px;
+  height: 70px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navIcon {
+  width: 24px;
+}
+
+.feedLogo {
+  border-left: 1px solid black;
+  margin-left: 15px;
+  padding-left: 15px;
+  font-size: 24px;
+}
+
+.navSearch {
+  width: 200px;
+  height: 25px;
+  border-radius: 3px;
+  border: 1px solid #e5e5e5;
+  margin-top: 2px;
+  background-color: #f5f5f5;
+  font-size: 12px;
+  text-align: center;
+}
+
+.navRight {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.navRight img{
+  width: 21px;
+}
+
+.navRight button {
+  border: 0px;
+  background-color: #fff;
+}
+
+.mainContainer {
+  width: 720px;
+  margin: 50px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.feed {
+  height: 100%;
+  border: 1px solid #e5e5e5;
+  background-color: #fff;
+}
+
+.feedSub {
+  width: 220px;
+}
+
+.feedTop {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  height: 50px;
+}
+
+.feedImg {
+  width: 468px;
+  height: 468px;
+}
+
+.moreBtn {
+  display: flex;
+  align-items: center;
+  border: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.more {
+  width: 21px;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+}
+
+.feedInfoBox {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  margin-bottom: 5px;
+  padding: 0 10px;
+}
+
+.feedInfoLeft {
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedInfoBox img {
+  width: 21px;
+}
+
+.feedInfoRight button img{
+  width: 30px;
+}
+
+.feedInfoBtn {
+  border: 0px;
+  background-color: #fff;
+}
+
+.feedInfoBtn img {
+  width: 21px;
+}
+
+.like {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.feedTextBox {
+  margin: 10px 0;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.uploadTime {
+  color: #9f9f9f;
+  font-size: 8px;
+}
+
+.commentLikeIcon {
+  width: 21px;
+}
+
+.commentBox {
+  border-top: 1px solid #e5e5e5;
+  position: relative;
+}
+
+.comment {
+  width: 100%;
+  height: 35px;
+  border: 0px;
+  padding: 6px 50px 6px 10px;
+}
+
+.postBtn {
+  width: max-content;
+  height: 100%;
+  border: 0px;
+  background-color: rgba(255, 255, 255, 0);
+  color: blue;
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+
+.postBtnDefault{
+  opacity: 0.3;
+}
+
+.postBtnActive {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.subMe {
+  display: flex;
+  align-items: center;
+}
+
+.subImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.grayfont {
+  color: #9f9f9f;
+  font-size: 12px;
+}
+
+.subStory{
+  border: 1px solid #e5e5e5;
+  height: 200px;
+  margin: 10px 0;
+  background-color: #fff;
+}
+
+.subRecommend {
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  height: 145px;
+}
+
+.pageInfo {
+  margin-top: 10px;
+  opacity: 0.3;
+}
+
+.copyright {
+  margin-top: 10px;
+}
+
+.subMore {
+  border: 0px;
+  background-color: #fff;
+}
+
+.subStoryTop, .recommendTop{
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.subStoryList {
+  height: 163px;
+  overflow: hidden;
+}
+
+.subRecommendList {
+  height: 105px;
+}
+
+.user {
+  height: 35px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.follow {
+  border: 0;
+  background-color: #fff;
+  color: #489ef2;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.postCommentBox {
+  padding-left: 10px;
+}
+
+.commentList {
+  height: 25px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.commentUser {
+  font-weight: bold;
+}
+
+.commentText {
+  margin-left: 10px;
+}
+
+.commentLikeBtn {
+  position: absolute;
+  right: 15px;
+  border: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.commentLikeIcon {
+  width: 15px;
+}
