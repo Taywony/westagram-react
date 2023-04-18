@@ -1,9 +1,9 @@
 import React from "react";
-import './Main.css';
+import './Main.scss';
 
 const Main = () => {
   return (
-    <div className="feedWrap">
+    <div className="main">
       <nav className="navContainer">
         <div className="navBox">
           <div className="navLeft">
@@ -41,13 +41,13 @@ const Main = () => {
           <div className="feedBottom">
             <div className="feedInfoBox">
               <div className="feedInfoLeft">
-                <button className="feedInfoBtn"><img alt="like_icon" className="likeIcon" src="images/heart.svg" /></button>
-                <button className="feedInfoBtn"><img alt="comment_icon" className="commentIcon" src="images/comment.svg" /></button>
-                <button className="feedInfoBtn"><img alt="share_icon" className="shareIcon" src="images/share.svg" /></button>
+                <button className="feedInfoBtn"><img alt="feed_like_icon" className="feedLikeIcon" src="images/heart.svg" /></button>
+                <button className="feedInfoBtn"><img alt="feed_comment_icon" className="feedCommentIcon" src="images/comment.svg" /></button>
+                <button className="feedInfoBtn"><img alt="feed_share_icon" className="feedShareIcon" src="images/share.svg" /></button>
               </div>
               <div className="feedInfoRight">
                 <button className="feedInfoBtn">
-                  <img alt="bookmark_icon" className="bookmarkIcon" src="images/bookmark.svg" />
+                  <img alt="feed_bookmark_icon" className="feedBookmarkIcon" src="images/bookmark.svg" />
                 </button>
               </div>
             </div>
@@ -69,7 +69,7 @@ const Main = () => {
               </div>
             </div>
             <div className="commentBox">
-                <input type="text" placeholder="댓글 달기..." className="comment" />
+                <input type="text" placeholder="댓글 달기..." className="comment"></input>
                 <button className="postBtn postBtnDefault">게시</button>
             </div>
           </div>

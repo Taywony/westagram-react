@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+.loginLogo .feedLogo{
+  font-family: 'Lobster', cursive, 'Montserrat', sans-serif;
+}
+
+.photo {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.nickName {
+  font-size: 12px;
+}
+
+.uploadTime {
+  color: #9f9f9f;
+  font-size: 8px;
+}
+
+.grayfont {
+  color: #9f9f9f;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 35px;
+  padding: 0 10px;
+}
